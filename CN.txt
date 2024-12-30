@@ -1,0 +1,19 @@
+CN:
+
+N/W id = IP Add and Subnet Mask
+
+Broadcast Addr = Ip Add OR (Subnet Mask)c
+
+No.of total addresses = 2^hostbits = 2^8
+
+valid host address - 2^8-2
+
+
+
+No.of computers = No. of valid IP Addresses = 2^x >=60 so x = 6 and hence 6 host bits i.e. 6 0 bits are required
+
+/ means no.of network bits
+
+/24 means 24 bits = 1 total = 32 bits means 8 host bits so valid hosts = 2^8 - 2
+
+/30 mena 30 bits = 1 means 2 means 2 host bits and 30 network bits so valid hosts = 2^2 - 2
